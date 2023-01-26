@@ -8,6 +8,8 @@ import Box from '@mui/material/Box';
 import { TabPanel } from '../components/TabPanel';
 import { BoxPractice } from '../components/practica/BoxPractice';
 import { TabPractice } from '../components/practica/TabPractice';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 
 export const PruebasPage = () => {
@@ -44,6 +46,9 @@ export const PruebasPage = () => {
 
       <TabPanel value={tab} index={0}>
         <Typography sx={{color: 'blue'}} className='bg-pink-200' >Typography - Text </Typography>
+        <Link to="/home" >
+          <Button variant="contained" sx={{zIndex: 999, position: 'fixed', bottom: 15, right: 15, borderRadius: 20}}> Home </Button>
+        </Link> 
       </TabPanel>
 
       <TabPanel value={tab} index={1}>
