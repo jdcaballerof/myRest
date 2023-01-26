@@ -3,8 +3,14 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 
+import { RouterProvider } from "react-router-dom";
+import { publicRouter } from './router/PublicRoutes';
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={publicRouter} />
+      {/* <App />
+    </RouterProvider> */}
   </React.StrictMode>
 )
