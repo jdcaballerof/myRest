@@ -138,7 +138,7 @@ export const TabPractice = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, eius in possimus asperiores dolore beatae consequuntur officiis reiciendis odio vitae, suscipit dolor unde! Ipsa ea atque recusandae fuga reiciendis nobis.</p>
         <img src='https://mui.com/static/branding/store-templates/template-dark5.jpeg' width="800" height="682" />
 
-        <div className='h-40 mt-20 bg-slate-500' />
+        <div className='h-60 mt-20 bg-slate-500 opacity-20' />
     </div>
   )
 }
