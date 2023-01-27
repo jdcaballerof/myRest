@@ -9,11 +9,13 @@ import { publicRouter, Router } from './router/PublicRoutes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Router />
-    </BrowserRouter>
-    {/* <RouterProvider router={publicRouter} /> 
-    <App />
+    </BrowserRouter> */}
+
+    <RouterProvider router={publicRouter} /> 
+    
+    {/* <App />
     </RouterProvider> */}
   </React.StrictMode>
 )

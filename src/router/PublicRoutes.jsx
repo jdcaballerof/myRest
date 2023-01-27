@@ -14,8 +14,8 @@ export const publicRouter = createBrowserRouter([
 export const Router = () => {
   return (
     <Routes>
-        <Route path="/try" element={ <PruebasPage /> } />
-        <Route path="/home" element={ <HomePage /> } />
+        <Route path="/try" element={ <PruebasPage /> } errorElement={<h2>Error</h2>} />
+        <Route path="/home" element={ <HomePage /> }   errorElement={<h2>Error</h2>} />
 
         <Route path="/*" element={ <Navigate to='/try' /> } />
     </Routes>

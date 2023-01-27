@@ -10,6 +10,7 @@ import { BoxPractice } from '../components/practica/BoxPractice';
 import { TabPractice } from '../components/practica/TabPractice';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import { Gato } from '../components/Gato';
 
 
 export const PruebasPage = () => {
@@ -60,7 +61,7 @@ export const PruebasPage = () => {
       </TabPanel>
 
       <TabPanel value={tab} index={3}>
-        Item One
+        <Gato />
       </TabPanel>
 
       <TabPanel value={tab} index={4}>
